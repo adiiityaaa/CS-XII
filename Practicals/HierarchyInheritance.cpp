@@ -59,4 +59,5 @@ int main() {
  obj.showspm();
  obj.final();
  getch();
+ return 0;
 }
