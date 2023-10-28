@@ -5,6 +5,7 @@ A repository containing codes for Class 12 HSC Board Computer Science. It is a c
 1. Base Code contains codes for Basic structures of important functions, which include Inheritance, Class, etc.
 2. Practicals folder contains the codes that were executed during CS Practicals.
 3. Question Bank folder contains code for the defined examination.
+4. Visual Basic folder contains folders about differents Applications from Visual Basic.
 
 # Languages Used
 1. C++
