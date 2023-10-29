@@ -93,9 +93,9 @@ Private Sub Form_Load()
 list1.AddItem ("CPU")
 list1.AddItem ("RAM")
 list1.AddItem ("Hard Disk")
-list1.AddItem ("Keyboard")
-list1.AddItem ("Mouse")
-list1.AddItem ("Monitor")
+list2.AddItem ("Keyboard")
+list2.AddItem ("Mouse")
+list2.AddItem ("Monitor")
 End Sub
 Private Sub add_Click()
     If list1.ListIndex >= 0 Then
@@ -108,6 +108,7 @@ Private Sub add_Click()
         MsgBox "Please select an Object!"
     End If
 End Sub
+
 Private Sub rem1_Click()
     If list1.ListIndex >= 0 Then
         list1.RemoveItem list1.ListIndex
